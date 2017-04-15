@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+        <TextView
+            android:text="1"
+            android:id="@+id/tvListIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:layout_margin="5dp"
+            android:background="@drawable/draw_menu_no_bg" />
+
+        <TextView
+            android:text="@string/app_name"
+            android:id="@+id/tvListTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/text_black"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:src="@drawable/ic_navigate_next_white_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:tint="@color/colorPrimary" />
+    </TableRow>
+</TableLayout>

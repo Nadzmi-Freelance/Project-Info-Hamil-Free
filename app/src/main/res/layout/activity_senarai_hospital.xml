@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onepage.infohamilfree.SenaraiHospital">
+
+    <!-- main content -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/text_white">
+
+        <ListView
+            android:id="@+id/lvSenaraiNegeri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="60dp" />
+
+        <TextView
+            android:text="@string/tajuk_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"/>
+    </RelativeLayout>
+
+    <!-- drawer menu content -->
+    <ListView
+        android:id="@+id/lvSettingMenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:divider="@color/text_black"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"
+        android:background="@color/text_white" />
+</android.support.v4.widget.DrawerLayout>

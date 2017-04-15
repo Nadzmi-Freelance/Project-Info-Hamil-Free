@@ -1,0 +1,304 @@
+<!-- todo - update mana2 data mengikut requirement cik asmawi -->
+
+<resources>
+    <string name="app_name">Info Hamil Free</string>
+
+    <!-- tajuk -->
+    <string name="tajuk_info_hamil">Info Hamil</string>
+    <string name="tajuk_info_bayi">Info Bayi</string>
+    <string name="tajuk_info_ibu">Info Ibu</string>
+    <string name="tajuk_footer">Copyright \u00a9 2017 Onepage Media Networks</string>
+    <string name="tajuk_act_tanda_hamil">Tanda-Tanda Anda Hamil</string>
+    <string name="tajuk_act_kira_tarikh_kelahiran">Kira Tarikh Kelahiran Bayi</string>
+    <string name="tajuk_act_info_minggu_hamil">Info Minggu Kehamilan</string>
+    <string name="tajuk_act_tip_penjagaan_ibu">Tips Penjagaan Ibu Hamil</string>
+    <string name="tajuk_act_tip_penjagaan_bayi">Tips Penjagaan Bayi</string>
+    <string name="tajuk_act_senarai_hospital_bersalin">Senarai Hospital Bersalin</string>
+    <string name="title_activity_minggu_hamil">MingguHamil</string>
+
+    <!-- nav -->
+    <string name="nav_minggu_sebelum">Minggu Sebelum</string>
+    <string name="nav_minggu_berikut">Minggu Berikut</string>
+    <string name="nav_tip_sebelum">Tip Sebelum</string>
+    <string name="nav_tip_berikut">Tip Berikut</string>
+
+    <!-- menu -->
+    <string-array name="menu_utama">
+        <item>Tanda-Tanda Anda Hamil</item>
+        <item>Kira Tarikh Kelahiran Bayi</item>
+        <item>Info Minggu Kehamilan</item>
+        <item>Tips Penjagaan Ibu Hamil</item>
+        <item>Tips Penjagaan Bayi</item>
+        <item>Senarai Hospital Bersalin</item>
+    </string-array>
+
+    <string-array name="menu_setting">
+        <item>Home</item>
+        <item>About Us</item>
+        <item>Copyright &amp; Disclaimer</item>
+    </string-array>
+
+    <string-array name="menu_share">
+        <item>Whatsapp</item>
+        <item>Email</item>
+    </string-array>
+
+    <string-array name="menu_info_minggu_kehamil">
+        <item>Minggu Ke-1 Kehamilan</item>
+        <item>Minggu Ke-2 Kehamilan</item>
+        <item>Minggu Ke-3 Kehamilan</item>
+        <item>Minggu Ke-4 Kehamilan</item>
+        <item>Minggu Ke-5 Kehamilan</item>
+        <item>Minggu Ke-6 Kehamilan</item>
+        <item>Minggu Ke-7 Kehamilan</item>
+        <item>Minggu Ke-8 Kehamilan</item>
+        <item>Minggu Ke-9 Kehamilan</item>
+        <item>Minggu Ke-10 Kehamilan</item>
+
+        <item>Minggu Ke-11 Kehamilan</item>
+        <item>Minggu Ke-12 Kehamilan</item>
+        <item>Minggu Ke-13 Kehamilan</item>
+        <item>Minggu Ke-14 Kehamilan</item>
+        <item>Minggu Ke-15 Kehamilan</item>
+        <item>Minggu Ke-16 Kehamilan</item>
+        <item>Minggu Ke-17 Kehamilan</item>
+        <item>Minggu Ke-18 Kehamilan</item>
+        <item>Minggu Ke-19 Kehamilan</item>
+        <item>Minggu Ke-20 Kehamilan</item>
+
+        <item>Minggu Ke-21 Kehamilan</item>
+        <item>Minggu Ke-22 Kehamilan</item>
+        <item>Minggu Ke-23 Kehamilan</item>
+        <item>Minggu Ke-24 Kehamilan</item>
+        <item>Minggu Ke-25 Kehamilan</item>
+        <item>Minggu Ke-26 Kehamilan</item>
+        <item>Minggu Ke-27 Kehamilan</item>
+        <item>Minggu Ke-28 Kehamilan</item>
+        <item>Minggu Ke-29 Kehamilan</item>
+        <item>Minggu Ke-30 Kehamilan</item>
+
+        <item>Minggu Ke-31 Kehamilan</item>
+        <item>Minggu Ke-32 Kehamilan</item>
+        <item>Minggu Ke-33 Kehamilan</item>
+        <item>Minggu Ke-34 Kehamilan</item>
+        <item>Minggu Ke-35 Kehamilan</item>
+        <item>Minggu Ke-36 Kehamilan</item>
+        <item>Minggu Ke-37 Kehamilan</item>
+        <item>Minggu Ke-38 Kehamilan</item>
+        <item>Minggu Ke-39 Kehamilan</item>
+        <item>Minggu Ke-40 Kehamilan</item>
+
+        <item>Minggu Ke-41 Kehamilan</item>
+        <item>Minggu Ke-42 Kehamilan</item>
+    </string-array>
+
+    <string-array name="menu_tip_ibu">
+        <item>Tip 1</item>
+        <item>Tip 2</item>
+        <item>Tip 3</item>
+        <item>Tip 4</item>
+        <item>Tip 5</item>
+        <item>Tip 6</item>
+        <item>Tip 7</item>
+        <item>Tip 8</item>
+        <item>Tip 9</item>
+        <item>Tip 10</item>
+    </string-array>
+
+    <string-array name="menu_tip_bayi">
+        <item>Tip 1</item>
+        <item>Tip 2</item>
+        <item>Tip 3</item>
+        <item>Tip 4</item>
+        <item>Tip 5</item>
+        <item>Tip 6</item>
+        <item>Tip 7</item>
+        <item>Tip 8</item>
+        <item>Tip 9</item>
+        <item>Tip 10</item>
+    </string-array>
+
+    <string-array name="menu_tanda_hamil">
+        <item>Tanda 1</item>
+        <item>Tanda 2</item>
+        <item>Tanda 3</item>
+        <item>Tanda 4</item>
+        <item>Tanda 5</item>
+        <item>Tanda 6</item>
+        <item>Tanda 7</item>
+        <item>Tanda 8</item>
+        <item>Tanda 9</item>
+        <item>Tanda 10</item>
+    </string-array>
+
+    <string-array name="menu_senarai_negeri">
+        <item>Sarawak</item>
+        <item>Sabah</item>
+        <item>Pahang</item>
+        <item>Perak</item>
+        <item>Johor</item>
+        <item>Kelantan</item>
+        <item>Terengganu</item>
+        <item>Kedah</item>
+        <item>Selangor</item>
+        <item>Negeri Sembilan</item>
+        <item>Melaka</item>
+        <item>Pulau Pinang</item>
+        <item>Perlis</item>
+        <item>Kuala Lumpur</item>
+    </string-array>
+
+    <!-- desc -->
+    <string-array name="desc_ibu_minggu_hamil">
+        <item>
+            Tiada tanda-tanda yang ketara dirasakan oleh ibu pada masa ini walaupun tarikh kedatangan haid telahpun lewat
+            daripada biasa.
+        </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="desc_bayi_minggu_hamil">
+        <item>
+            Semasa minggu pertama baru terjadi proses pembentukan antara sperma dan sel telur. Janin sudah memiliki genetik
+            46 jenis kromosom. Pasa masa ini embrio memerlukan nutrisi dalam bentuk oksigen dari ibu.
+        </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="desc_img_minggu_hamil">
+        <item>@drawable/w1</item>
+        <item>@drawable/w2</item>
+        <item>@drawable/w3</item>
+        <item>@drawable/w4</item>
+        <item>@drawable/w5</item>
+        <item>@drawable/w6</item>
+        <item>@drawable/w7</item>
+        <item>@drawable/w8</item>
+        <item>@drawable/w9</item>
+        <item>@drawable/w10</item>
+
+        <item>@drawable/w11</item>
+        <item>@drawable/w12</item>
+        <item>@drawable/w13</item>
+        <item>@drawable/w14</item>
+        <item>@drawable/w15</item>
+        <item>@drawable/w16</item>
+        <item>@drawable/w17</item>
+        <item>@drawable/w18</item>
+        <item>@drawable/w19</item>
+        <item>@drawable/w20</item>
+
+        <item>@drawable/w21</item>
+        <item>@drawable/w22</item>
+        <item>@drawable/w23</item>
+        <item>@drawable/w24</item>
+        <item>@drawable/w25</item>
+        <item>@drawable/w26</item>
+        <item>@drawable/w27</item>
+        <item>@drawable/w28</item>
+        <item>@drawable/w29</item>
+        <item>@drawable/w30</item>
+
+        <item>@drawable/w31</item>
+        <item>@drawable/w32</item>
+        <item>@drawable/w33</item>
+        <item>@drawable/w34</item>
+        <item>@drawable/w35</item>
+        <item>@drawable/w36</item>
+        <item>@drawable/w37</item>
+        <item>@drawable/w38</item>
+        <item>@drawable/w39</item>
+        <item>@drawable/w40</item>
+
+        <item>@drawable/w41</item>
+        <item>@drawable/w42</item>
+    </string-array>
+</resources>
