@@ -150,6 +150,7 @@
 
     <!-- desc -->
     <string-array name="desc_ibu_minggu_hamil">
+        <!-- minggu 1 -->
         <item>
             Tiada tanda-tanda yang ketara dirasakan oleh ibu pada masa ini walaupun tarikh kedatangan haid telahpun lewat
             daripada biasa.
@@ -164,6 +165,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 11 -->
         <item></item>
         <item></item>
         <item></item>
@@ -175,6 +177,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 21 -->
         <item></item>
         <item></item>
         <item></item>
@@ -186,6 +189,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 31 -->
         <item></item>
         <item></item>
         <item></item>
@@ -197,11 +201,13 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 41 -->
         <item></item>
         <item></item>
     </string-array>
 
     <string-array name="desc_bayi_minggu_hamil">
+        <!-- minggu 1 -->
         <item>
             Semasa minggu pertama baru terjadi proses pembentukan antara sperma dan sel telur. Janin sudah memiliki genetik
             46 jenis kromosom. Pasa masa ini embrio memerlukan nutrisi dalam bentuk oksigen dari ibu.
@@ -216,6 +222,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 11 -->
         <item></item>
         <item></item>
         <item></item>
@@ -227,6 +234,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 21 -->
         <item></item>
         <item></item>
         <item></item>
@@ -238,6 +246,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 31 -->
         <item></item>
         <item></item>
         <item></item>
@@ -249,12 +258,13 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 41 -->
         <item></item>
         <item></item>
     </string-array>
 
     <string-array name="desc_img_minggu_hamil">
-        <item>@drawable/w1</item>
+        <item>@drawable/w1</item> <!-- minggu 1 -->
         <item>@drawable/w2</item>
         <item>@drawable/w3</item>
         <item>@drawable/w4</item>
@@ -265,7 +275,7 @@
         <item>@drawable/w9</item>
         <item>@drawable/w10</item>
 
-        <item>@drawable/w11</item>
+        <item>@drawable/w11</item> <!-- minggu 11 -->
         <item>@drawable/w12</item>
         <item>@drawable/w13</item>
         <item>@drawable/w14</item>
@@ -276,7 +286,7 @@
         <item>@drawable/w19</item>
         <item>@drawable/w20</item>
 
-        <item>@drawable/w21</item>
+        <item>@drawable/w21</item> <!-- minggu 21 -->
         <item>@drawable/w22</item>
         <item>@drawable/w23</item>
         <item>@drawable/w24</item>
@@ -287,7 +297,7 @@
         <item>@drawable/w29</item>
         <item>@drawable/w30</item>
 
-        <item>@drawable/w31</item>
+        <item>@drawable/w31</item> <!-- minggu 31 -->
         <item>@drawable/w32</item>
         <item>@drawable/w33</item>
         <item>@drawable/w34</item>
@@ -298,7 +308,7 @@
         <item>@drawable/w39</item>
         <item>@drawable/w40</item>
 
-        <item>@drawable/w41</item>
+        <item>@drawable/w41</item> <!-- minggu 41 -->
         <item>@drawable/w42</item>
     </string-array>
 </resources>
