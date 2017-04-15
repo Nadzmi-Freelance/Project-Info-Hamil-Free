@@ -1,5 +1,3 @@
-<!-- todo - update mana2 data mengikut requirement cik asmawi -->
-
 <resources>
     <string name="app_name">Info Hamil Free</string>
 
@@ -14,6 +12,9 @@
     <string name="tajuk_act_tip_penjagaan_ibu">Tips Penjagaan Ibu Hamil</string>
     <string name="tajuk_act_tip_penjagaan_bayi">Tips Penjagaan Bayi</string>
     <string name="tajuk_act_senarai_hospital_bersalin">Senarai Hospital Bersalin</string>
+    <string name="tajuk_alert_free_version">
+        <b>Sila Muat Turun Versi Berbayar</b>
+    </string>
     <string name="title_activity_minggu_hamil">MingguHamil</string>
 
     <!-- nav -->
@@ -21,6 +22,9 @@
     <string name="nav_minggu_berikut">Minggu Berikut</string>
     <string name="nav_tip_sebelum">Tip Sebelum</string>
     <string name="nav_tip_berikut">Tip Berikut</string>
+    <string name="nav_alert_free_version_positive">Muat Turun</string>
+    <string name="nav_alert_free_version_negative">Batal</string>
+    <string name="nav_goto_full_version">https://play.google.com/store</string>
 
     <!-- menu -->
     <string-array name="menu_utama">
@@ -149,7 +153,18 @@
     </string-array>
 
     <!-- desc -->
+    <string name="desc_alert_free_version_minggu_hamil">
+        Hanya minggu 1, 10, 20, 30 dan 40 sahaja yang boleh dipaparkan untuk versi percuma.\n\n
+        Anda boleh muat turun versi berbayar di Google Play Store.
+    </string>
+
+    <string name="desc_alert_free_version_senarai_hospital">
+        Senarai hospital hanya dipaparkan dalam versi berbayar sahaja.\n\n
+        Anda boleh muat turun versi berbayar di Google Play Store.
+    </string>
+
     <string-array name="desc_ibu_minggu_hamil">
+        <!-- minggu 1 -->
         <item>
             Tiada tanda-tanda yang ketara dirasakan oleh ibu pada masa ini walaupun tarikh kedatangan haid telahpun lewat
             daripada biasa.
@@ -164,6 +179,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 11 -->
         <item></item>
         <item></item>
         <item></item>
@@ -175,6 +191,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 21 -->
         <item></item>
         <item></item>
         <item></item>
@@ -186,6 +203,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 31 -->
         <item></item>
         <item></item>
         <item></item>
@@ -197,11 +215,13 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 41 -->
         <item></item>
         <item></item>
     </string-array>
 
     <string-array name="desc_bayi_minggu_hamil">
+        <!-- minggu 1 -->
         <item>
             Semasa minggu pertama baru terjadi proses pembentukan antara sperma dan sel telur. Janin sudah memiliki genetik
             46 jenis kromosom. Pasa masa ini embrio memerlukan nutrisi dalam bentuk oksigen dari ibu.
@@ -216,6 +236,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 11 -->
         <item></item>
         <item></item>
         <item></item>
@@ -227,6 +248,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 21 -->
         <item></item>
         <item></item>
         <item></item>
@@ -238,6 +260,7 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 31 -->
         <item></item>
         <item></item>
         <item></item>
@@ -249,56 +272,58 @@
         <item></item>
         <item></item>
 
+        <!-- minggu 41 -->
         <item></item>
         <item></item>
     </string-array>
 
     <string-array name="desc_img_minggu_hamil">
-        <item>@drawable/w1</item>
-        <item>@drawable/w2</item>
-        <item>@drawable/w3</item>
-        <item>@drawable/w4</item>
-        <item>@drawable/w5</item>
-        <item>@drawable/w6</item>
-        <item>@drawable/w7</item>
-        <item>@drawable/w8</item>
-        <item>@drawable/w9</item>
+        <item>@drawable/w1</item> <!-- minggu 1 -->
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item>@drawable/w10</item>
 
-        <item>@drawable/w11</item>
-        <item>@drawable/w12</item>
-        <item>@drawable/w13</item>
-        <item>@drawable/w14</item>
-        <item>@drawable/w15</item>
-        <item>@drawable/w16</item>
-        <item>@drawable/w17</item>
-        <item>@drawable/w18</item>
-        <item>@drawable/w19</item>
+        <item></item> <!-- minggu 11 -->
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item>@drawable/w20</item>
 
-        <item>@drawable/w21</item>
-        <item>@drawable/w22</item>
-        <item>@drawable/w23</item>
-        <item>@drawable/w24</item>
-        <item>@drawable/w25</item>
-        <item>@drawable/w26</item>
-        <item>@drawable/w27</item>
-        <item>@drawable/w28</item>
-        <item>@drawable/w29</item>
+
+        <item></item> <!-- minggu 21 -->
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item>@drawable/w30</item>
 
-        <item>@drawable/w31</item>
-        <item>@drawable/w32</item>
-        <item>@drawable/w33</item>
-        <item>@drawable/w34</item>
-        <item>@drawable/w35</item>
-        <item>@drawable/w36</item>
-        <item>@drawable/w37</item>
-        <item>@drawable/w38</item>
-        <item>@drawable/w39</item>
+        <item></item> <!-- minggu 31 -->
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item>@drawable/w40</item>
 
-        <item>@drawable/w41</item>
-        <item>@drawable/w42</item>
+        <item></item> <!-- minggu 41 -->
+        <item></item>
     </string-array>
 </resources>

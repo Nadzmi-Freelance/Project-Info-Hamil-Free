@@ -1,10 +1,13 @@
 package com.onepage.infohamilfree;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.net.Uri;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -162,26 +165,48 @@ public class InfoMingguHamil extends AppCompatActivity implements AdapterView.On
     @Override
     public void onClick(View v) {
         Intent otherAct;
+        int curPos;
 
+        curPos = position;
         otherAct = new Intent(this, InfoMingguHamil.class);
         switch(v.getId()) {
             case R.id.llMingguSebelum:
-                position -= 1;
+                curPos -= 1;
                 break;
             case R.id.llMingguBerikut:
-                position += 1;
+                curPos += 1;
                 break;
         }
 
-        if(position <= 0)
-            position = 0;
-        else if(position > getResources().getStringArray(R.array.menu_info_minggu_kehamil).length - 1)
-            position = getResources().getStringArray(R.array.menu_info_minggu_kehamil).length - 1;
+        if(curPos <= 0)
+            curPos = 0;
+        else if(curPos > getResources().getStringArray(R.array.menu_info_minggu_kehamil).length - 1)
+            curPos = getResources().getStringArray(R.array.menu_info_minggu_kehamil).length - 1;
 
-        otherAct.putExtra("title", getResources().getStringArray(R.array.menu_info_minggu_kehamil)[position]);
-        otherAct.putExtra("mingguPos", position);
-        startActivity(otherAct);
-        finish();
+        if((curPos == 0) || (curPos == 9) || (curPos == 19) || (curPos == 29) || (curPos == 39)) {
+            otherAct.putExtra("title", getResources().getStringArray(R.array.menu_info_minggu_kehamil)[position]);
+            otherAct.putExtra("mingguPos", curPos);
+            startActivity(otherAct);
+            finish();
+        } else {
+            AlertDialog alertDialog = new AlertDialog.Builder(this)
+                    .setTitle(R.string.tajuk_alert_free_version)
+                    .setMessage(R.string.desc_alert_free_version_minggu_hamil)
+                    .setPositiveButton(R.string.nav_alert_free_version_positive, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent gotoPlayStore;
+
+                            gotoPlayStore = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.nav_goto_full_version)));
+
+                            startActivity(gotoPlayStore);
+                        }
+                    })
+                    .setNegativeButton(R.string.nav_alert_free_version_negative, null)
+                    .create();
+
+            alertDialog.show();
+        }
     }
 
     @Override

@@ -1,9 +1,12 @@
 package com.onepage.infohamilfree;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -110,7 +113,23 @@ public class SenaraiHospital extends AppCompatActivity implements AdapterView.On
                 }
                 break;
             case R.id.lvSenaraiNegeri:
-                // TODO: 4/15/2017 - implement link
+                AlertDialog alertDialog = new AlertDialog.Builder(this)
+                        .setTitle(R.string.tajuk_alert_free_version)
+                        .setMessage(R.string.desc_alert_free_version_senarai_hospital)
+                        .setPositiveButton(R.string.nav_alert_free_version_positive, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent gotoPlayStore;
+
+                                gotoPlayStore = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.nav_goto_full_version)));
+
+                                startActivity(gotoPlayStore);
+                            }
+                        })
+                        .setNegativeButton(R.string.nav_alert_free_version_negative, null)
+                        .create();
+
+                alertDialog.show();
                 break;
         }
     }
